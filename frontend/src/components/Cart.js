@@ -6,10 +6,11 @@ const Cart = () => {
   const { cartItems, removeFromCart, increaseQty, decreaseQty } =
     useContext(CartContext);
 
-  const totalAmount = cartItems.reduce(
-    (total, item) => total + item.price * item.quantity,
-    0
-  );
+  const totalAmount = cartItems.reduce((total, item) => {
+  const priceNumber = Number(item.price.replace("$", ""));
+  return total + priceNumber * item.quantity;
+}, 0);
+
 
   return (
     <div style={{ padding: "20px" }}>
@@ -39,7 +40,7 @@ const Cart = () => {
 
               <div style={{ flex: 1 }}>
                 <h3>{item.title}</h3>
-                <p>${item.price}</p>
+                <p>{item.price}</p>
 
                 <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                   <button onClick={() => decreaseQty(item.id)}>-</button>
