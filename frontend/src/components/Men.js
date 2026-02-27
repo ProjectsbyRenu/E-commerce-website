@@ -262,7 +262,7 @@ const Men = () => {
       <div style={{ textAlign: "center" }}><h1 id='jacket'>Men Jacket</h1></div>
 
       <div className="card-men-sec" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px", padding: "20px" }}>
-        {cards.map((card, index) => {
+        {jacket.map((card, index) => {
 
   const isInCart = cartItems.some(item => item.id === card.id);
 
@@ -302,7 +302,7 @@ const Men = () => {
       <div style={{ textAlign: "center" }}><h1 id='tshirts'>Men T-Shirts</h1></div>
 
       <div className="card-men-sec" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px", padding: "20px" }}>
-        {cards.map((card, index) => {
+        {TShirt.map((card, index) => {
 
   const isInCart = cartItems.some(item => item.id === card.id);
 
@@ -341,7 +341,7 @@ const Men = () => {
       <div style={{ textAlign: "center" }}><h1 id='shirts'>Men Shirts</h1></div>
 
       <div className="card-men-sec" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px", padding: "20px" }}>
-        {cards.map((card, index) => {
+        {Shirt.map((card, index) => {
 
   const isInCart = cartItems.some(item => item.id === card.id);
 
@@ -382,7 +382,7 @@ const Men = () => {
       <div style={{ textAlign: "center" }}><h1 id='boots'>Men Shirts</h1></div>
 
       <div className="card-men-sec" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px", padding: "20px" }}>
-        {cards.map((card, index) => {
+        {boots.map((card, index) => {
 
   const isInCart = cartItems.some(item => item.id === card.id);
 
@@ -422,7 +422,7 @@ const Men = () => {
       <div style={{ textAlign: "center" }}><h1 id='must'>Men Must Have</h1></div>
 
       <div className="card-men-sec" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px", padding: "20px" }}>
-         {cards.map((card, index) => {
+         {must.map((card, index) => {
 
   const isInCart = cartItems.some(item => item.id === card.id);
 

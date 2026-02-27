@@ -117,7 +117,7 @@ const Kids = () => {
             <div className='Party-cl'>
                 <h1 id="party">PartyWear</h1>
                 <div className="card-men-sec" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px", padding: "20px" }}>
-                    {cards.map((card, index) => {
+                    {party.map((card, index) => {
 
   const isInCart = cartItems.some(item => item.id === card.id);
 
@@ -159,7 +159,7 @@ const Kids = () => {
             <div className='combo'>
                 <h1 id="combo"> CuteCombo</h1>
                 <div className="card-men-sec" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px", padding: "20px" }}>
-                    {cards.map((card, index) => {
+                    {Combo.map((card, index) => {
 
   const isInCart = cartItems.some(item => item.id === card.id);
 
