@@ -26,38 +26,38 @@ const Men = () => {
 
 
   const cards = [
-    {id:"01", image: "https://levi.in/cdn/shop/files/001AC0001_1_Front_360x.jpg?v=1731410662", title: "Men's 511 Slim Fit Navy Jeans", price: "$50" },
-    {id:"02", image: "https://i.pinimg.com/236x/9b/bb/51/9bbb5139295fc7c0bc53e71d47ae42f0.jpg", title: "Men's 511 Slim Fit Navy Jeans", price: "$70" },
-    { id:"03",image: "https://levi.in/cdn/shop/files/360870866_01_Styleshot_360x.jpg?v=1722184747", title: "Men's 511 Slim Fit Navy Jeans", price: "$40" },
-    {id:"04", image: "https://levi.in/cdn/shop/files/001BW0003_05_Styleshot_360x.jpg?v=1729589731", title: "Men's 511 Slim Fit Navy Jeans", price: "$100" }
+    {id:"01", image: "https://i.pinimg.com/1200x/6a/d2/6e/6ad26ea0c5df40a314096c8d7250ea67.jpg?v=1731410662", title: "Straight Fit Jean", price: "$50" },
+    {id:"02", image: "https://i.pinimg.com/1200x/44/92/04/449204bab604cf44feab4d44bbd60d38.jpg", title: "Cargo Pants ", price: "$70" },
+    { id:"03",image: "https://i.pinimg.com/1200x/d4/ef/5a/d4ef5ac33c1f6e6e9ce6de9f4f273f1d.jpg?v=1722184747", title: "Formal Pants", price: "$40" },
+    {id:"04", image: "https://i.pinimg.com/736x/8c/1e/fe/8c1efe5d000fed9a852cee3931a89fdd.jpg?v=1729589731", title: "Dusty Jean", price: "$100" }
 
 
   ];
 
 
   const jacket = [
-    {id:"001", image: "https://levi.in/cdn/shop/files/A71390001_01_Styleshot_360x.jpg?v=1725607956", title: "Men's Solid Black Jacket ", price: "$50" },
-    {id:"002", image: "https://levi.in/cdn/shop/files/248690123_01_Styleshot_c6cc9d42-59cf-4618-93bd-0c5e591692a5_360x.jpg?v=1727343539", title: "Men's Solid Black Jacket", price: "$70" },
-    {id:"003", image: "https://levi.in/cdn/shop/files/000DK0001_01_Elevated_360x.jpg?v=1723375041", title: "Men's Solid Black Jacket", price: "$40" },
-    {id:"004", image: "https://levi.in/cdn/shop/files/000DA0000_1_Front_360x.jpg?v=1731414064", title: "Men's Solid Black Jacket", price: "$100" }
+    {id:"001", image: "https://i.pinimg.com/736x/8c/6c/79/8c6c79775fb9e7d363dcc104ad2d2906.jpg?v=1725607956", title: "Brown Jacket ", price: "$50" },
+    {id:"002", image: "https://i.pinimg.com/736x/75/35/65/75356578c1d590561e8765444516df14.jpg?v=1727343539", title: "Hoodie Jacket", price: "$70" },
+    {id:"003", image: "https://i.pinimg.com/736x/df/50/ea/df50eafd4074275e4537ad943040a59d.jpg?v=1723375041", title: "Versity Jacket", price: "$40" },
+    {id:"004", image: "https://i.pinimg.com/1200x/f6/fa/34/f6fa343d80408f4a3aee03a700a7b714.jpg?v=1731414064", title: "Leather Black Jacket", price: "$100" }
 
 
   ];
 
   const TShirt = [
-    {id:"0001", image: "https://levi.in/cdn/shop/files/A25650014_01_Styleshot_360x.jpg?v=1723374823", title: "Men's Plaid Slim  Fit TShirt", price: "$50" },
-    {id:"0002", image: "https://levi.in/cdn/shop/files/A65880054_01_Elevated_4e34740e-0d19-4eb9-ae7e-c09286b0ca41_360x.jpg?v=1732828635", title: "Men's Plaid Slim  Fit TShirt", price: "$70" },
-    {id:"0003", image: "https://levi.in/cdn/shop/files/A78890003_01_Elevated_360x.jpg?v=1723375521", title: "Men's Plaid Slim  Fit TShirt", price: "$40" },
-    {id:"0004", image: "https://levi.in/cdn/shop/files/A79700064_1_Front_360x.jpg?v=1731409183", title: "Men's Plaid Slim  Fit TShirt", price: "$100" }
+    {id:"0001", image: "https://i.pinimg.com/1200x/71/df/41/71df4151d6a2fb06c660ac60f57d77bd.jpg?v=1723374823", title: "Oversized T-Shirt", price: "$50" },
+    {id:"0002", image: "https://i.pinimg.com/736x/69/ed/5e/69ed5e4cf7b009dc84f8ea258321234b.jpg?v=1732828635", title: "Collar T-Shirt", price: "$70" },
+    {id:"0003", image: "https://i.pinimg.com/1200x/a7/bb/47/a7bb472ebf295eea8db9a78be7e2c404.jpg?v=1723375521", title: "Collar full-sleeve ", price: "$40" },
+    {id:"0004", image: "https://i.pinimg.com/736x/93/25/c9/9325c9a7028aee62ac677868b30bab90.jpg?v=1731409183", title: "Round Neck TShirt", price: "$100" }
 
 
   ];
 
   const Shirt = [
-    {id:"0010", image: "https://levi.in/cdn/shop/files/328740603_01_Styleshot_360x.jpg?v=1723375753", title: "Men's Plaid Slim  Fit Shirt", price: "$50" },
-    {id:"0020", image: "https://levi.in/cdn/shop/files/A78040017_01_Elevated_360x.jpg?v=1723375171", title: "Men's Plaid Slim  Fit Shirt", price: "$70" },
-    { id:"0030",image: "https://levi.in/cdn/shop/files/176210296_1_Front_360x.jpg?v=1731423097", title: "Men's Plaid Slim  Fit Shirt", price: "$40" },
-    {id:"0040", image: "https://levi.in/cdn/shop/files/176210269_01_StyleShot_360x.jpg?v=1723375830", title: "Men's Plaid Slim  Fit Shirt", price: "$100" }
+    {id:"0010", image: "https://i.pinimg.com/1200x/f3/67/48/f367488fca1b3a56b1f95255fb39478c.jpg?v=1723375753", title: "Check Shirt", price: "$50" },
+    {id:"0020", image: "https://i.pinimg.com/736x/91/9c/9a/919c9afc372156a9620cb46b8ccda452.jpg?v=1723375171", title: "Formal Shirt", price: "$70" },
+    { id:"0030",image: "https://i.pinimg.com/1200x/7b/f9/63/7bf963e9cedb4ed351e1bdf276b68012.jpg?v=1731423097", title: "Denim Shirt", price: "$40" },
+    {id:"0040", image: "https://i.pinimg.com/736x/fe/fb/82/fefb82e2bd41e536e4070f3f5c44eda5.jpg?v=1723375830", title: "Half-Sleeve Shirt", price: "$100" }
 
 
   ];
@@ -66,18 +66,18 @@ const Men = () => {
 
 
   const boots = [
-    {id:"00100", image: "https://levi.in/cdn/shop/files/879700123_06_Style_f56b89bf-51bb-4688-9915-426573bd338e_360x.jpg?v=1713542678", title: "Men's Suede Casual Shoes", price: "$50" },
-    {id:"00200", image: "https://levi.in/cdn/shop/files/879700120_06_Style_563bb20e-971e-4d43-9e89-2f4e9f32819a_360x.jpg?v=1712301301", title: "Men's Suede Casual Shoes", price: "$70" },
-    {id:"00300", image: "https://levi.in/cdn/shop/files/879700152_06_Style_360x.jpg?v=1713512908", title: "Men's Suede Casual Shoes", price: "$40" },
-    { id:"00400",image: "https://levi.in/cdn/shop/files/879700159_02_Side_360x.jpg?v=1713513668", title: "Men's Suede Casual Shoes", price: "$100" }
+    {id:"00100", image: "https://i.pinimg.com/736x/ef/62/2c/ef622cc489f83b6eefba054434b426be.jpg?v=1713542678", title: "Jordan Nike", price: "$50" },
+    {id:"00200", image: "https://i.pinimg.com/736x/07/d7/be/07d7be474706fc674775292c7ccbb1ae.jpg?v=1712301301", title: "Chelsey Shoes", price: "$70" },
+    {id:"00300", image: "https://i.pinimg.com/736x/5d/9c/08/5d9c0875a3ac4770ec84abd7de5ff14b.jpg?v=1713512908", title: "Gucci Loffer", price: "$40" },
+    { id:"00400",image: "https://i.pinimg.com/736x/14/f4/fe/14f4fe3684469c2954e47d2a91988751.jpg?v=1713513668", title: "Boots Wear", price: "$100" }
 
 
   ]
   const must = [
-    {id:"010", image: "https://levi.in/cdn/shop/files/A40400000_01_Style_Shot_a26661d7-aa1a-4de1-a02f-f202c8bfc60b_360x.jpg?v=1712743461", title: "Men's Solid Slim Fit Shirt", price: "$50" },
-    {id:"020", image: "https://levi.in/cdn/shop/files/169600124_01_Front_53c5c268-6cc2-456d-961d-8ce71b5351df_360x.jpg?v=1712744464", title: "Men's Solid Slim Fit Shirt", price: "$70" },
-    {id:"030", image: "https://levi.in/cdn/shop/files/182981220_01_Style_Shot_b2845fbe-1044-429e-a60b-1907f8083390_360x.jpg?v=1695724483", title: "Men's Solid Slim Fit Shirt", price: "$40" },
-    {id:"040", image: "https://levi.in/cdn/shop/files/182981223_01_Style_Shot_522ee0a6-9b27-42e3-b4ac-9c511a745c79_360x.jpg?v=1695724483", title: "Men's Solid Slim Fit Shirt", price: "$100" }
+    {id:"010", image: "https://i.pinimg.com/736x/fe/f6/25/fef6257178505376aad47571121da92d.jpg?v=1712743461", title: "YOU Men Perfume", price: "$50" },
+    {id:"020", image: "https://i.pinimg.com/736x/09/3b/06/093b0655c06ec5b871cfefcdafb4e83b.jpg?v=1712744464", title: "Premium Watch", price: "$70" },
+    {id:"030", image: "https://i.pinimg.com/1200x/a4/15/61/a415617218dc5273f8c2260d905cecd0.jpg?v=1695724483", title: "Ney York Prnit Cap", price: "$40" },
+    {id:"040", image: "https://i.pinimg.com/736x/f0/10/bc/f010bc202703817a6d659c19114703b7.jpg?v=1695724483", title: "Neck Pendent", price: "$100" }
 
 
   ]

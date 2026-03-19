@@ -28,38 +28,38 @@ const Women = () => {
 
 
   const cards = [
-    { id:1,image: "https://levi.in/cdn/shop/files/000G90001_1_360x.jpg?v=1733743681", title: "Jens", price: "$50" },
-    { id:2, image: "https://levi.in/cdn/shop/files/000G90003_05_Styleshot_360x.jpg?v=1734075770", title: "Jeans", price: "$70" },
-    {id:3, image: "https://levi.in/cdn/shop/files/A25040038_4_360x.jpg?v=1734018374", title: "Jeans", price: "$40" },
-    {id:4, image: "https://levi.in/cdn/shop/files/A25150000_01_Front_7ca17235-a77a-4dd1-bc8f-3a3eb9dc8291_360x.jpg?v=1695725994", title: "Jeans", price: "$100" }
+    { id:1,image: "https://i.pinimg.com/736x/2c/68/e6/2c68e63b16375a8c56c8eb01ba5f9750.jpg?v=1733743681", title: "Officewear Pant", price: "$50" },
+    { id:2, image: "https://i.pinimg.com/736x/45/69/31/4569318177b087d4fde26329bf9dd57a.jpg?v=1757575094&width=493?v=1734075770", title: "Comfy Pant", price: "$70" },
+    {id:3, image: "https://i.pinimg.com/736x/1b/e1/12/1be11263ec2e0a2b13adbe6400c98ded.jpg?v=1734018374", title: "Oversized Trackpant", price: "$40" },
+    {id:4, image: "https://i.pinimg.com/1200x/1f/2e/52/1f2e52fcab12d88844297cfe8cb180fa.jpg?v=1695725994", title: "Straight Fit Jean", price: "$100" }
 
 
   ];
 
 
   const jacket = [
-    {id:101, image: "https://levi.in/cdn/shop/files/002V90001_1_360x.jpg?v=1734021643", title: "Jacket", price: "$50" },
-    {id:102, image: "https://levi.in/cdn/shop/files/548880029_01_Styleshot_360x.jpg?v=1732618105", title: "Jacket", price: "$70" },
-    { id:103,image: "https://levi.in/cdn/shop/files/A65780000_01_Style_Shot_af89cdd5-8993-4082-8c25-3006b9f615a8_360x.jpg?v=1712742962", title: "Jacket", price: "$40" },
-    { id:104,image: "https://levi.in/cdn/shop/files/002V90000_1_360x.jpg?v=1734021526", title: "Jacket", price: "$100" }
+    {id:101, image: "https://i.pinimg.com/736x/b2/18/35/b21835c18f3a45b95c28e1fb45c1d68a.jpg", title: "Leather Jacket", price: "$50" },
+    {id:102, image: "https://i.pinimg.com/736x/a0/20/31/a02031d02d35f255509384911d791017.jpg?v=1732618105", title: "Bomber Jacket", price: "$70" },
+    { id:103,image: "https://i.pinimg.com/1200x/92/35/77/9235774b8dd7698ca487c91233a5875a.jpg?v=1712742962", title: "Black Cardigan", price: "$40" },
+    { id:104,image: "https://i.pinimg.com/736x/1d/63/70/1d63708e8901132f967391adebd39aa6.jpg?v=1734021526", title: "Cropped Utility Jacket", price: "$100" }
 
 
   ];
 
   const TShirt = [
-    { id:201,image: "https://levi.in/cdn/shop/files/000EV0001_1_Front_360x.jpg?v=1731473790", title: "Jens", price: "$50" },
-    {id:202, image: "https://levi.in/cdn/shop/files/A92090004_01_Elevated_360x.jpg?v=1726117600", title: "Jeans", price: "$70" },
-    {id:203, image: "https://levi.in/cdn/shop/files/A92030003_1_360x.jpg?v=1734020455", title: "Jeans", price: "$40" },
-    { id:204,image: "https://levi.in/cdn/shop/files/000EV0002_1_Front_360x.jpg?v=1731473899", title: "Jeans", price: "$100" }
+    { id:201,image: "https://i.pinimg.com/1200x/22/a1/78/22a178e049fdc5ed077a74f8104070d3.jpg?v=1731473790", title: "Drop Shoulder", price: "$50" },
+    {id:202, image: "https://i.pinimg.com/736x/d1/39/81/d139812a3359c028806486c11e1fb0f6.jpg?v=1726117600", title: "Oversized Buffywear", price: "$70" },
+    {id:203, image: "https://i.pinimg.com/736x/e0/45/0f/e0450f28b3ce5ae01c1ea8353c533d82.jpg?v=1734020455", title: "Shirtype-Top", price: "$40" },
+    { id:204,image: "https://i.pinimg.com/1200x/64/96/15/6496158b35fb9a959889898b534b18ff.jpg?v=1731473899", title: "Double Pocket", price: "$100" }
 
 
   ];
 
   const Shirt = [
-    {id:301, image: "https://levi.in/cdn/shop/files/871770135_06_Side_bab80836-923b-49da-8252-371aea938ac3_360x.jpg?v=1725601006", title: "Jens", price: "$50" },
-    {id:302, image: "https://levi.in/cdn/shop/files/871770134_01_Elevated_ef94a28a-ba80-4cd6-b8c1-9b8c9e153fb0_360x.jpg?v=1725599576", title: "Jeans", price: "$70" },
-    {id:303, image: "https://levi.in/cdn/shop/files/A39070049_03_Front_360x.jpg?v=1726117586", title: "Jeans", price: "$40" },
-    { id:304,image: "https://levi.in/cdn/shop/files/237710549_01_Styleshot_360x.jpg?v=1728282907", title: "Jeans", price: "$100" }
+    {id:301, image: "https://i.pinimg.com/1200x/01/e9/31/01e93152b99489d378b5ecf65e07d6b1.jpg?v=1725601006", title: "Check Shirt", price: "$50" },
+    {id:302, image: "https://i.pinimg.com/736x/56/e5/6c/56e56c311f5deb4855c13bb9fefba4c0.jpg?v=1725599576", title: "Half-Sleeve Formal", price: "$70" },
+    {id:303, image: "https://i.pinimg.com/1200x/12/92/f2/1292f276028e4eca3a3d4261d4bb1ce9.jpg?v=1726117586", title: "Denim Shirt", price: "$40" },
+    { id:304,image: "https://i.pinimg.com/1200x/cb/d4/ed/cbd4eda7a599b6b83eae16d6939a4c3c.jpg?v=1728282907", title: "Full-Sleeve Top", price: "$100" }
 
 
   ];
@@ -68,18 +68,18 @@ const Women = () => {
 
 
   const boots = [
-    {id:401, image: "https://levi.in/cdn/shop/files/375440100_01_Front_ff5f0261-f793-4cb0-8798-0ac4a1ae0dc9_360x.jpg?v=1695736676", title: "Jens", price: "$50" },
-    { id:402,image: "https://levi.in/cdn/shop/files/879700120_06_Style_563bb20e-971e-4d43-9e89-2f4e9f32819a_360x.jpg?v=1712301301", title: "Jeans", price: "$70" },
-    {id:403, image: "https://levi.in/cdn/shop/files/879700152_06_Style_360x.jpg?v=1713512908", title: "Jeans", price: "$40" },
-    {id:404, image: "https://levi.in/cdn/shop/files/879700159_02_Side_360x.jpg?v=1713513668", title: "Jeans", price: "$100" }
+    {id:401, image: "https://i.pinimg.com/736x/61/02/1a/61021ae5af3b3135798647790a874924.jpg?v=1695736676", title: "White Sneaker", price: "$50" },
+    { id:402,image: "https://i.pinimg.com/736x/c0/59/d2/c059d25c67df5390f6678daa12763315.jpg?v=1712301301", title: "Angle Wear Boots", price: "$70" },
+    {id:403, image: "https://i.pinimg.com/736x/18/5e/85/185e8508433c7d19b72a396222441c4f.jpg?v=1713512908", title: "Sandle Heels", price: "$40" },
+    {id:404, image: "https://i.pinimg.com/736x/48/09/8f/48098f27d87beda1a29edb6f75eb6c53.jpg?v=1713513668", title: "Lady Loffers", price: "$100" }
 
 
   ]
   const must = [
-    { id:501,image: "https://levi.in/cdn/shop/files/244750127_01_Style_Shot_792ee7ca-30dc-4271-a075-f44bd90fc23b_360x.jpg?v=1712741829", title: "Jens", price: "$50" },
-    {id:502, image: "https://levi.in/cdn/shop/files/213060550_01_Style_Shot_2e192453-cc74-4608-942c-f73a926bf043_360x.jpg?v=1695724914", title: "Jeans", price: "$70" },
-    { id:503,image: "https://levi.in/cdn/shop/files/244750017_01_Style_Shot_ecad7c68-e645-4fa7-8d6a-0ee428e22198_360x.jpg?v=1695725317", title: "Jeans", price: "$40" },
-    {id:504, image: "https://levi.in/cdn/shop/files/328900028_01_Style_Shot_ad3287ce-42b2-4ee5-8c28-e1a876fbc41a_360x.jpg?v=1695725426", title: "Jeans", price: "$100" }
+    { id:501,image: "https://i.pinimg.com/1200x/9e/62/13/9e6213880b7f72b01b84e945ca5d2fad.jpg?v=1712741829", title: "Leaf locket", price: "$50" },
+    {id:502, image: "https://i.pinimg.com/736x/a2/f4/14/a2f414f32914b2416742fcc1dd5151b9.jpg?v=1695724914", title: "Miss Dior", price: "$70" },
+    { id:503,image: "https://i.pinimg.com/736x/19/0c/f8/190cf8ee1f72a29636bf54fd3c557558.jpg?v=1695725317", title: "Retro Watch", price: "$40" },
+    {id:504, image: "https://i.pinimg.com/1200x/56/1b/15/561b15ad6f6ce24c34f853db61fbd062.jpg?v=1695725426", title: "Purse Vintage", price: "$100" }
 
 
   ]
