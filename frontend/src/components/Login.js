@@ -3,32 +3,60 @@ import './Login.css';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer';
 const Login = () => {
-  const [user, setUser] = useState('');
-  const [password, setPassword] = useState('');
-  const [userErr, setUserErr] = useState(false);
-  const [passErr, setPassErr] = useState(false);
 
-  const loginHandel = (e) => {
+   const [formInfo, setFormInfo] = useState({
+      email: "",
+      password: ""
+     
+    });
+    const [message, setMessage] = useState("");
+    // Handle input change
+    const handleChange = (e) => {
+      const { id, value } = e.target;
+      setFormInfo({ ...formInfo, [id]: value });
+    };
+  
+  // const [user, setUser] = useState('');
+  // const [password, setPassword] = useState('')
+
+  const loginHandel = async (e) => {
     e.preventDefault();
-    if (user.length < 3 || password.length < 3) {
-      alert('Please provide valid credentials.');
-    } else {
-      alert('Login successful!');
+    try
+    {
+      const response= await fetch("http://localhost:3001/login",{
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formInfo)
+      });
+       const data = await response.json();
+       console.log(data)
+       if(data.success){
+      alert(data.message);
+       window.location.href="/"
+       }
+       else{
+        alert(data.message)
+       }
+    }
+    catch(error){
+      setMessage(error)
+
     }
   };
   
 
-  const userHandler = (e) => {
-    const item = e.target.value;
-    setUserErr(item.length < 3);
-    setUser(item);
-  };
+  // const userHandler = (e) => {
+  //   const item = e.target.value;
+  //   setUser(item);
+  // };
 
-  const passwordHandler = (e) => {
-    const item = e.target.value;
-    setPassErr(item.length < 3);
-    setPassword(item);
-  };
+  // const passwordHandler = (e) => {
+  //   const item = e.target.value;
+  //   setPassword(item);
+   
+  // };
 
   return (
     <>
@@ -40,43 +68,37 @@ const Login = () => {
           </div>
           <div className="input_box">
             <input
-              type="text"
-              id="user"
-              value={user}
-              onChange={userHandler}
+            name='email'
+              type="email"
+              id="email"
+              value={formInfo.email}
+              onChange={handleChange}
               className="input-field"
               required
             />
-            <label htmlFor="user" className="label">
-              Username
+            <label htmlFor="email" className="label">
+             email
             </label>
-            <i className="bx bx-user icon" />
-            {userErr && <span className="error">Username must be at least 3 characters</span>}
           </div>
           <div className="input_box">
             <input
+             name='password'
               type="password"
-              id="pass"
-              value={password}
-              onChange={passwordHandler}
+              id="password"
+              value={formInfo.password}
+              onChange={handleChange}
               className="input-field"
               required
             />
             <label htmlFor="pass" className="label">
               Password
             </label>
-            <i className="bx bx-lock-alt icon" />
-            {passErr && <span className="error">Password must be at least 3 characters</span>}
           </div>
-          <div className="remember-forgot">
-            <div className="remember-me">
-              <input type="checkbox" id="remember" />
-              <label htmlFor="remember">Remember me</label>
-            </div>
+          {/* <div className="remember-forgot">
             <div className="forgot">
               <a href="#">Forgot password?</a>
             </div>
-          </div>
+          </div> */}
           <div className="input_box">
             <input type="submit" className="input-submit" value="Login" />
           </div>

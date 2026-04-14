@@ -111,14 +111,10 @@ a:hover {
 }
 
 .label {
-  position: absolute;
+  /* position: absolute;
   top: 15px;
   left: 20px;
-  transition: 0.2s;
-}
-
-.input-field:focus ~ .label,
-.input-field:valid .label {
+  transition: 0.2s; */
 
   position: absolute;
   top: -10px;
@@ -128,8 +124,7 @@ a:hover {
   border-radius: 30px;
   color: var(--black-color);
   padding: 0 10px;
-} 
-
+}
 .icon {
   position: absolute;
   top: 18px;

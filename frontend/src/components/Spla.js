@@ -9,7 +9,7 @@ const Spla = () => {
         
           <center className='sl' >
           <video autoPlay muted>
-              <source  src='video/Divya.mp4' type='video/mp4'></source>
+              <source  src='video/renu.mp4' type='video/mp4'></source>
               </video>
               </center>
               </div>

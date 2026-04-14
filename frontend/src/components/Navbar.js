@@ -151,7 +151,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <NavLink className="dropdown-item" to="/Login">
-                        Become a H&M Member
+                      Login
                       </NavLink>
                     </li>
                     <li>
@@ -164,7 +164,7 @@ const Navbar = () => {
               
             
             
-              <label>Light</label><input type="checkbox" onClick={handleToggleTheme} ref={inputRef} class="theme-checkbox" /><label>Dark</label>
+              <label>Light</label><input type="checkbox" onClick={handleToggleTheme} ref={inputRef} className="theme-checkbox" /><label>Dark</label>
 
 
 

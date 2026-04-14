@@ -193,24 +193,24 @@ const Home = () => {
       <div data-aos="zoom-out-up">
       <div className='hero2' 
         >
-        <div class="features-section">
-          <div class="feature">
-            <div class="icon1">📅</div>
+        <div className="features-section">
+          <div className="feature">
+            <div className="icon1">📅</div>
             <h3>Book An Appointment</h3>
             <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
           </div>
-          <div class="feature">
-            <div class="icon1">🛍️</div>
+          <div className="feature">
+            <div className="icon1">🛍️</div>
             <h3>Pick Up In Store</h3>
             <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
           </div>
-          <div class="feature">
-            <div class="icon1">🎁</div>
+          <div className="feature">
+            <div className="icon1">🎁</div>
             <h3>Special Packaging</h3>
             <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
           </div>
-          <div class="feature">
-            <div class="icon1">🔄</div>
+          <div className="feature">
+            <div className="icon1">🔄</div>
             <h3>Free Global Returns</h3>
             <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
           </div>
@@ -242,9 +242,9 @@ const Home = () => {
       <center>
         
         <NavLink to="/Kids">
-        <button class="button" data-text="Awesome">
-          <span class="actual-text">&nbsp;See more&nbsp;</span>
-          <span aria-hidden="true" class="hover-text">&nbsp;SeeMore&nbsp;</span>
+        <button className="button" data-text="Awesome">
+          <span className="actual-text">&nbsp;See more&nbsp;</span>
+          <span aria-hidden="true" className="hover-text">&nbsp;SeeMore&nbsp;</span>
           </button>
         </NavLink>
                </center>
@@ -268,26 +268,26 @@ const Home = () => {
       </div>
 
       <div data-aos="fade-up-right">
-      <div class="sec-banner bg0 p-t-80 p-b-50">
-        <div class="container">
-          <div class="row">
+      <div className="sec-banner bg0 p-t-80 p-b-50">
+        <div className="container">
+          <div className="row">
            
-            <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
+            <div className="col-md-6 col-xl-4 p-b-30 m-lr-auto">
              
-              <div class="block1 wrap-pic-w">
+              <div className="block1 wrap-pic-w">
                 <img src="https://levi.in/cdn/shop/files/2_DoorShop_Women.jpg?v=1728464830" alt="IMG-BANNER"/>
 
-                <NavLink to="/Women" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3" style={{ textDecoration: 'none' }}>
-                    <div class="block1-txt-child1 flex-col-l">
-                      <span class="block1-name ltext-102 trans-04 p-b-8" style={{color:"gray", }}>
+                <NavLink to="/Women" className="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3" style={{ textDecoration: 'none' }}>
+                    <div className="block1-txt-child1 flex-col-l">
+                      <span className="block1-name ltext-102 trans-04 p-b-8" style={{color:"gray", }}>
                         Women
                       </span>
 
         
                     </div>
 
-                    <div class="block1-txt-child2 p-b-4 trans-05">
-                      <div class="block1-link stext-101 cl0 trans-09 " style={{marginLeft:"150px",marginRight:"150px",borderRadius:"25px"}}>
+                    <div className="block1-txt-child2 p-b-4 trans-05">
+                      <div className="block1-link stext-101 cl0 trans-09 " style={{marginLeft:"150px",marginRight:"150px",borderRadius:"25px"}}>
                        Watch Now
                       </div>
                     </div>
@@ -296,22 +296,22 @@ const Home = () => {
             </div>
 
 
-            <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
+            <div className="col-md-6 col-xl-4 p-b-30 m-lr-auto">
 
-              <div class="block1 wrap-pic-w">
+              <div className="block1 wrap-pic-w">
                 <img style={{ height: "410" }} src="/video/img1.jpg" alt="IMG-BANNER" />
 
-                <NavLink to="/Products" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3" style={{ textDecoration: 'none' }}>
-                  <div class="block1-txt-child1 flex-col-l">
-                    <span class="block1-name ltext-102 trans-04 p-b-8" style={{ color: "gray", }}>
+                <NavLink to="/Products" className="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3" style={{ textDecoration: 'none' }}>
+                  <div className="block1-txt-child1 flex-col-l">
+                    <span className="block1-name ltext-102 trans-04 p-b-8" style={{ color: "gray", }}>
                       SEE All Product
                     </span>
 
 
                   </div>
 
-                  <div class="block1-txt-child2 p-b-4 trans-05">
-                    <div class="block1-link stext-101 cl0 trans-09" style={{ marginLeft: "150px", marginRight: "150px", borderRadius: "25px" }}>
+                  <div className="block1-txt-child2 p-b-4 trans-05">
+                    <div className="block1-link stext-101 cl0 trans-09" style={{ marginLeft: "150px", marginRight: "150px", borderRadius: "25px" }}>
                       Watch Now
                     </div>
 
@@ -323,22 +323,22 @@ const Home = () => {
 
 
 
-            <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
+            <div className="col-md-6 col-xl-4 p-b-30 m-lr-auto">
              
-              <div class="block1 wrap-pic-w">
+              <div className="block1 wrap-pic-w">
                 <img src="https://levi.in/cdn/shop/files/2_DoorShop_Men.jpg?v=1728464830" alt="IMG-BANNER"/>
 
-                <NavLink to="/Men" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3" style={{ textDecoration: 'none' }}>
-                    <div class="block1-txt-child1 flex-col-l">
-                    <span class="block1-name ltext-102 trans-04 p-b-8" style={{ color: "gray", }}>
+                <NavLink to="/Men" className="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3" style={{ textDecoration: 'none' }}>
+                    <div className="block1-txt-child1 flex-col-l">
+                    <span className="block1-name ltext-102 trans-04 p-b-8" style={{ color: "gray", }}>
                         Men
                       </span>
 
                     
                     </div>
 
-                    <div class="block1-txt-child2 p-b-4 trans-05">
-                    <div class="block1-link stext-101 cl0 trans-09" style={{ marginLeft: "150px", marginRight: "150px", borderRadius: "25px" }}>
+                    <div className="block1-txt-child2 p-b-4 trans-05">
+                    <div className="block1-link stext-101 cl0 trans-09" style={{ marginLeft: "150px", marginRight: "150px", borderRadius: "25px" }}>
                         Watch Now
                       </div>
                     </div>
